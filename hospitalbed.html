@@ -1,0 +1,1573 @@
+<html>
+<body>
+<head><center> COVID BEDS RECORD </centre>
+<style>
+body {
+  background-image: url("https://ari-cms.com/Content/Site/26972/images/Header-Empty-Hospital-bed.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+ 
+}
+table
+{
+font-family:Georgia;
+color:thick dark black;
+font-style:italic;
+</style>
+</head>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+<table id="myTable">
+<table border ="1">
+<br><tr>
+<th> STATE </th>
+<th> NAME </th>
+<th> CITY </th>
+<th> OWNERSHIP </th>
+<th> ADMISSION CAPACITY </th>
+<th> HOSPITAL BEDS </th>
+</tr>
+<tr>
+<td> A & N Island </td>
+<td> Andaman & Nicobar Islands Institute of Medical Science, Port Blair </td>
+<td> Port Blair </td>
+<td> Govt </td>
+<td> 100 </td>
+<td> 750 </td>
+</tr>
+<tr>
+<td> Andra pradesh  </td>
+<td> ACSR Goverment Medical College Nellore </td>
+<td> Nellore </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 750 </td>
+</tr>
+<tr>
+<td> Andhra Pradesh </td>
+<td> Alluri Sitaram Raju Academy of Medical Sciences, Eluru </td>
+<td> Eluru </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 1070 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Andhra Medical College, Visakhapatnam </td>
+<td> Visakhapatnam </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td> 2017 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Apollo Institute of Medical Sciences and Research, Chittoor </td>
+<td> Chittoor </td>
+<td> Society </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Dr. P.S.I. Medical College , Chinoutpalli </td>
+<td> Chinoutpalli </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 398 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh  </td>
+<td> Fathima Instt. of Medical Sciences, Kadapa </td>
+<td> Kadapa </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 450 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Gayathri Vidya Parishad Inst. of Health Care & Med. Tech. Visakhapatnam </td>
+<td> Visakhapatnam </td>
+<td> Society </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> GITAM Institute of Medical Sciences and Research, Visakhapatam </td>
+<td> Visakhapatanam </td>
+<td> University </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Government Medical College, Anantapuram </td>
+<td> Anantapurram </td>
+<td> Govt </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Government Siddhartha Medical College, Vijaywada </td>
+<td> Vijaywada </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 412 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Great Eastern Medical School and Hospital,Srikakulam </td>
+<td> Srikakulam </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 350 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> GSL Medical College, Rajahmundry </td>
+<td> Rajahmundry </td>
+<td> Trust </td>
+<td> 200 </td>
+<td> 1000 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Guntur Medical College, Guntur </td>
+<td> Guntur </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td> 1277 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Katuri Medical College, Guntur </td>
+<td> Guntur </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 900 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Konaseema Institute of Med. Sci. & Research Foundation, Amalapuram </td>
+<td> Amalapuram </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 879 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Kurnool Medical College, Kurnool </td>
+<td> Kurnool </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td> 1050 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Maharajah Institute of Medical Sciences, Vizianagaram </td>
+<td> Vizianagaram </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 1050 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Narayana Medical College, Nellore </td>
+<td> Nellore </td>
+<td> Trust </td>
+<td> 250 </td>
+<td> 1550 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Nimra Institute of Medical Sciences, Krishna Dist </td>
+<td> Krishna Dist. </td>
+<td> Society </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> NRI Institute of Medical Sciences, Visakhapatnam </td>
+<td> Visakhapatnam </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 360 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> NRI Medical College, Guntur </td>
+<td> Guntur </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 1000 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> P E S Institute Of Medical Sciences and Research, Kuppam </td>
+<td> Kuppam </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 750 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Rajiv Gandhi Institute of Medical Sciences, Kadapa </td>
+<td> Kadapa </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 750 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Rajiv Gandhi Institute of Medical Sciences, Srikakulam </td>
+<td> Srikakulam </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Rajiv Gandhi Institute of Medical Sciences,Ongole, AP </td>
+<td> Ongole </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh" </td>
+<td> Rangaraya Medical College, Kakinada </td>
+<td> Kakinada </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td> 1080 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> RVS Institute of Medical Sciences, Chittoor </td>
+<td> Chittoor </td>
+<td> Society </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> S V Medical College, Tirupati </td>
+<td> Tirupati </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td> 862 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Santhiram Medical College, Nandyal </td>
+<td> Nandyal </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 700 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> SVIM-Sri Padmavathi Medical College for Women, Alipiri Road, Tirupati </td>
+<td> Tirupati </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 650 </td>
+</tr>
+</tr>
+<td> Andhra Pradesh </td>
+<td> Viswabharathi Medical College, Kurnool </td>
+<td> Kurnool </td>
+<td> Society </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Assam </td>
+<td> Assam Medical College, Dibrugarh </td>
+<td> Dibrugarh </td>
+<td> Govt. </td>
+<td> 170 </td>
+<td> 1365 </td>
+</tr>
+</tr>
+<td> Assam </td>
+<td> Fakhruddin Ali Ahmed Medical College, Barpeta, Assam </td>
+<td> Barpeta, </td>
+<td> Govt-Society </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Assam </td>
+<td> Silchar Medical College, Silchar </td>
+<td> Silchar </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 906 </td>
+</tr>
+</tr>
+<td> Assam </td>
+<td> Tezpur Medical College & Hospital, Tezpur </td>
+<td> Tezpur </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Tripura </td>
+<td> Agartala Government Medical College,Agartala </td>
+<td> Agartala </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 695 </td>
+</tr>
+</tr>
+<td> Tripura </td>
+<td> Tripura Medical College and Dr. B R A M Teaching Hospital, Agartala </td>
+<td> Agartala </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Punjab </td>
+<td> Adesh Institute of Medical Sciences & Research, Bhatinda </td>
+<td> Bhatinda </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 700 </td>
+</tr>
+</tr>
+<td> Punjab </td>
+<td> Christian Medical College, Ludhiana </td>
+<td> Ludhiana </td>
+<td> Trust </td>
+<td> 75 </td>
+<td> 650 </td>
+</tr>
+</tr>
+<td> Punjab </td>
+<td> Dayanand Medical College & Hospital, Ludhiana" </td>
+<td> Ludhiana </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 1048 </td>
+</tr>
+</tr>
+<td> Punjab </td>
+<td> Government Medical College, Amritsar </td>
+<td> Amritsar </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td> 1091 </td>
+</tr>
+</tr>
+<td> Punjab </td>
+<td> Government Medical College, Patiala </td>
+<td> Patiala </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td> 1106 </td>
+</tr>
+</tr>
+<td> Punjab </td>
+<td> Guru Govind Singh Medical College, Faridko </td>
+<td> Faridkot </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Punjab </td>
+<td> Punjab Institute of Medical Sciences, Jalandhar </td>
+<td> Jalandhar </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Punjab </td>
+<td> Sri Guru Ram Das Institute of Medical Sciences and Research, Sri Amritsar </td>
+<td> Amritsar </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 875  </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> All India Institute of Medical Sciences, Jodhpur </td>
+<td> Jodhpur </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> American International Institute of Medical Sciences, Bedwas </td>
+<td> Bedwas </td>
+<td> Private </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td>  Rajasthan </td>
+<td>  Ananta Institute of Medical sciences & Research center,  Rajsamand</td>
+<td>  Rajsamand</td>
+<td>  Society  </td>
+<td>  0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Rajasthan  </td>
+<td> Dr SN Medical College,  Jodhpur  </td>
+<td> Jodhpur  </td>
+<td> Govt.  </td>
+<td> 250 </td>
+<td> 2831 </td>
+</tr>
+</tr>
+<td> Rajasthan  </td>
+<td> Geethanjali Medical College & Hospital,  Udaipur </td>
+<td> Udaipur  </td>
+<td>  Trust </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Rajasthan  </td>
+<td> Government  Medical College, Kota </td>
+<td> Kota  </td>
+<td> Govt. </td>
+<td> 150  </td>
+<td> 1172 </td>
+</tr>
+</tr>
+<td> Rajasthan  </td>
+<td> Jaipur National University Institute of Medical Science & Research Center, Jajatpur, Jaipur </td>
+<td> Jaipur </td>
+<td> University  </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> Jawaharlal Nehru Medical College,  Ajmer</td>
+<td> Ajmer </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 1328 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> Jhalawar Medical College,  Jhalawar</td>
+<td> Jhalawar </td>
+<td> Govt. </td>
+<td>150 </td>
+<td> 580 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> Mahatma Gandhi Medical College and Hospital,  Jaipur </td>
+<td> Jaipur </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> National Institute of Medical Science and Research, Jaipur </td>
+<td> Jaipur </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> Pacific Medical College and Hospital, Bhilo ka Bedla, Udaipur</td>
+<td> Udaipur </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> Pacific Institute of Medical Science, Umarda, Udaipur </td>
+<td> Udaipur </td>
+<td> Society </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> R N T Medical College,  Udaipur </td>
+<td> Udaipur </td>
+<td> Society </td>
+<td> 150 </td>
+<td> 2006 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> RUHS College of Medical Science, Jaipur </td>
+<td> Jaipur </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 322 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> Sardar Patel Medical College, Bikaner </td>
+<td> Bikaner </td>
+<td> Govt. </td>
+<td> 250 </td>
+<td> 2088 </td>
+</tr>
+</tr>
+<td> Rajasthan </td>
+<td> SMS Medical College,  Jaipur </td>
+<td> Jaipur </td>
+<td> Govt.</td>
+<td> 250 </td>
+<td> 4734 </td>
+</tr>
+</tr>
+<td> Sikkim </td>
+<td> Sikkim Manipal Institute of Medical Sciences, Gangtok </td>
+<td> Gangtok </td>
+<td> Trust </td>
+<td> 50 </td>
+<td> 650 </td>
+</tr>
+</tr>
+<td> Goa </td>
+<td> Goa Medical College,  Panaji</td>
+<td> Panaji</td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 1152 </td>
+</tr>
+</tr>
+<td> Chandigarh </td>
+<td> Government Medical College,  Chandigarh </td>
+<td> Chandigarh </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Chhattisgarh</td>
+<td> All India Institute of Medical Sciences Raipur </td>
+<td> Raipur </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Chhattisgarh</td>
+<td> Chandulal Chandrakar Memorial Medical College, Durg </td>
+<td> Durg </td>
+<td> Private </td>
+<td> 150 </td>
+<td> 750 </td>
+</tr>
+</tr>
+<td> Chhattisgarh </td>
+<td> Chhatisgarh Institue of Medical Sciences, Bilaspur </td>
+<td> Bilaspur </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 672 </td>
+</tr>
+</tr>
+<td> Chhattisgarh </td>
+<td> Govt. Medical College,  Ambikapur(Surguja)</td>
+<td> Ambikapur </td>
+<td> Govt. </td>
+<td> 0 </td>
+<td> 414 </td>
+</tr>
+</tr>
+<td> Chhattisgarh</td>
+<td> Government Medical College,  Rajnandgaon</td>
+<td> Rajnandgaon</td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 380 </td>
+</tr>
+</tr>
+<td> Chhattisgarh </td>
+<td> Late Shri Baliram Kashyap Memorial NDMC Govt. Medical College,  Jagdalpur </td>
+<td> Jagdalpur </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 470 </td>
+</tr>
+</tr>
+<td> Chhattisgarh </td>
+<td> Late Shri Lakhi Ram Agarwal Memorial  Govt. Medical College, Raigarh </td>
+<td> Raigarh </td>
+<td> Govt. </td>
+<td> 50 </td>
+<td> 650 </td>
+</tr>
+</tr>
+<td> Chhattisgarh </td>
+<td> Pt. J N M Medical College,  Raipur </td>
+<td> Raipur </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 1153 </td>
+</tr>
+</tr>
+<td> Chhattisgarh </td>
+<td> Raipur Institute of Medical Sciences(RIMS), Raipur </td>
+<td> Raipur </td>
+<td> Society </td>
+<td> 0 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Chhattisgarh </td>
+<td> Shri Shankaracharya Institute of Medical Sciences, Bhilai </td>
+<td> Bhilai </td>
+<td> Society </td>
+<td> 150 </td>
+<td> 350 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> Adesh Medical College and Hospital, Sahabad, Kurushetra</td>
+<td> Sahabad </td>
+<td> Society </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> BPS Government Medical College for Women, Sonepat </td>
+<td> Sonepat </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> Employees State Insurance Corporation Medical College,  Faridabad </td>
+<td> Faridabad </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Haryana  </td>
+<td> Faculty of Medicine and Health Sciences,  Gurgaon </td>
+<td> Gurgaon </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> Kalpana Chawla Govt. Medical College, Karnal </td>
+<td> Karnal </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> Maharaja Agrasen Medical College,  Agroha </td>
+<td> Agroha </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 450 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> Maharisi Markandeshwar Instt. of Med. Sci. & Resh., Mullana, Ambala </td>
+<td> Ambala </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 1063 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> N. C. Medical College and Hospital, Panipath </td>
+<td> Panipath </td>
+<td> Trust </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> Pt. B D Sharma Postgraduate Insti. of Medical Sciences, Rohtak(Haryana) </td>
+<td> Rohtak </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td>1710 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> Shaheed Hasan Khan Mewati Government Medical College, Nalhar </td>
+<td> Nalhar </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Haryana </td>
+<td> World College of Medical Sciences & Research,  Jhajjar </td>
+<td> Jhajjar</td>
+<td> Trust </td>
+<td>  0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Himachal Pradesh </td>
+<td> Dr. Rajendra Prasad Government Medical College,  Tanda, H.P</td>
+<td> Tanda </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 593 </td>
+</tr>
+</tr>
+<td> Himachal Pradesh </td>
+<td> Government Medical College,  Nahan, Sirmour </td>
+<td> Sirmour </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Himachal  Pradesh </td>
+<td> Indira Gandhi Medical College, Shimla </td>
+<td> Shimla </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 835 </td>
+</tr>
+</tr>
+<td> Himachal  Pradesh </td>
+<td> Maharishi Markandeshwar Medical College & Hospital, Solan </td>
+<td> Solan </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Himachal  Pradesh </td>
+<td> Pt. Jawahar Lal Nehru Govt Medical College,  Chamba </td>
+<td> Chamba </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Himachal Pradesh </td>
+<td> Shri Lal Bahadur Shastri Govt. Medical College, Mandi </td>
+<td> Mandi </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Jammu & Kashmir </td>
+<td> Acharya Shri Chander College of Medical Sciences, Jammu </td>
+<td> Jammu </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Jammu & Kashmir </td>
+<td> Government Medical College,  Jammu </td>
+<td> Jammu </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 2295 </td>
+</tr>
+</tr>
+<td> Jammu & Kashmir </td>
+<td> Government Medical College,  Srinagar </td>
+<td> Srinagar </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 2550 </td>
+</tr>
+</tr>
+<td> Jammu & Kashmir </td>
+<td> Sher - I - Kashmir Instt. Of Medical Sciences, Srinagar </td>
+<td> Srinagar </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 250 </td>
+</tr>
+</tr>
+<td> Jharkhand </td>
+<td> M G M Medical College, Jamshedpur </td>
+<td> Jamshedpur </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 514 </td>
+</tr>
+</tr>
+<td> Jharkhand </td>
+<td> Patliputra Medical College,  Dhanbad </td>
+<td> Dhanbad </td>
+<td> Govt. </td>
+<td> 50 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Jharkhand </td>
+<td> Rajendhra Institute of Medical Sciences,  Ranchi </td>
+<td> Ranchi </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 1500 </td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> Raichur Institute of Medical Sciences,Raichur </td>
+<td> Raichur </td>
+<td> "Govt. </td>
+<td> 150 </td>
+<td> 550 </td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> Rajarajeswari Medical College & Hospital, Bangalore </td>
+<td> Bangalore </td>
+<td> Trust </td>
+<td> 250 </td>
+<td> 1100 </td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> S S Institute of Medical Sciences& Research Centre, Davangere </td>
+<td> Davangere </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 130 </td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> S. Nijalingappa Med. College & HSK Hospital & Research Centre, Bagalkot </td>
+<td> Bagalkot </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 820 </td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> Sambhram Institute of Medical Sciences & Research, Kolar </td>
+<td> Kolar </td>
+<td> Trust </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> Sapthagiri Institute of Medical Sciences & Research Centre, Bangalore </td>
+<td> Bangalore </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 640 </td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> SDM Medical Siences & HospitalCollege , Sattur, Dharwad </td>
+<td> Dharwad </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 700</td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> Shri B M Patil Medical College, Hospital & Research Centre, Bijapur </td>
+<td> Bijapur </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 797 </td>
+</tr>
+</tr>
+<td> Karnataka" </td>
+<td> The Oxford Medical College, Hospital & Research Centre, Bangalore </td>
+<td> Bangalore </td>
+<td> Society </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> Vijaynagar Institute of Medical Sciences, Bellary </td>
+<td> Bellary </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 1017 </td>
+</tr>
+</tr>
+<td> Karnataka </td>
+<td> Yenepoya Medical College, Mangalore </td>
+<td> Mangalore </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 929 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Government Medical College, Aurangabad </td>
+<td> Aurangabad </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 0 </td>
+
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> ACPM Medical College, Dhule </td>
+<td> Dhule </td>
+<td> Trust </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Armed Forces Medical College, Pune </td>
+<td> Pune </td>
+<td> Govt. </td>
+<td> 140 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Ashwini Rural Medical College, Hospital & Research Centre, Solapur </td>
+<td> Solapur </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Indira Gandhi Medical College & Hospital, Nagpur </td>
+<td> Nagpur </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Krishna Institute of Medical Sciences, Karad </td>
+<td> Karad </td>
+<td> Trust </td>
+<td> 200 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Maharashtra Institute of Medical Education & Research, Talegaon, Pune </td>
+<td> Pune </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Mahatma Gandhi Missions Medical College, Aurangabad </td>
+<td> Aurangabad </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Mahatma Gandhi Missions Medical College, Navi Mumbai </td>
+<td> Mumbai </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> N. K. P. Salve Instt. of Medical Sciences and Research Centre and Lata </td>
+<td> Nagpur </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Padmashree Dr. D.Y.Patil Medical College, Navi Mumbai </td>
+<td> Navi Mumbai </td>
+<td> Trust </td>
+<td> 250 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Rajashree Chatrapati Shahu Maharaj Government Medical College, Kolhapur </td>
+<td> Kolhapur </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Rajiv Gandhi Medical College and Chhatrapati Shivaji Maharaj Hospital </td>
+<td> Thane </td>
+<td> Govt. </td>
+<td> 60 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Terna Medical College, Navi Mumbai </td>
+<td> Mumbai </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Maharastra </td>
+<td> Topiwala National Medical College, Mumbai </td>
+<td> Mumbai </td>
+<td> Govt. </td>
+<td> 120 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Manipur </td>
+<td> Jawaharlal Nehru Institute of Medical Sciences,Porompet,Imphal </td>
+<td> Imphal </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Manipur </td>
+<td> Regional Institute of Medical Sciences, Imphal </td>
+<td> Imphal </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Meghalaya </td>
+<td> North Eastern Indira Gandhi Regional Instt. of Health and Medical Sciences, Shillong </td>
+<td> Shillong </td>
+<td> Govt. </td>
+<td> 50 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Odisha </td>
+<td> All India Institute of Medical Sciences, Bhubaneswar </td>
+<td> Bhubaneswar </td>
+<td> Govt </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Odisha </td>
+<td> Hi-Tech Medical College & Hospital, Bhubaneswar </td>
+<td> Bhubaneswar </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 550 </td>
+</tr>
+</tr>
+<td> Odisha </td>
+<td> Hi-Tech Medical College & Hospital, Rourkela </td>
+<td> Rourkela </td>
+<td> Trust </td>
+<td> 0 </td>
+<td> 450 </td>
+</tr>
+</tr>
+<td> Odisha </td>
+<td> Instt. Of Medical Sciences & SUM Hospital, Bhubaneswar </td>
+<td> Bhubaneswar </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 830 </td>
+</tr>
+</tr>
+<td> Odisha </td>
+<td> Saheed Laxman Nayak Medical College & Hospital, Koraput </td>
+<td> Koraput </td>
+<td> Cuttack </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Odisha </td>
+<td> SCB Medical College, Cuttack </td>
+<td> Cuttack </td>
+<td> Govt </td>
+<td> 250 </td>
+<td> 2066 </td>
+</tr>
+</tr>
+<td> Odisha </td>
+<td> Veer Surendra Sai Institute of Medical Sciences and Research, Burla </td>
+<td> Burla </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 964 </td>
+</tr>
+</tr>
+<td> Puducherry </td>
+<td> Aarupadai Veedu Medical College, Pondicherry </td>
+<td> Pondicherry </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 540 </td>
+</tr>
+</tr>
+<td> Puducherry </td>
+<td> Indira Gandhi Medical College & Research Institute, Puducherry </td>
+<td> Puducherry </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 700 </td>
+</tr>
+</tr>
+<td> Puducherry </td>
+<td> Jawaharlal Institute of Postgraduate Medical Education & Research </td>
+<td> Puducherry </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td> 1690 </td>
+</tr>
+</tr>
+<td> Puducherry </td>
+<td> Sri Manakula Vinayagar Medical College & Hospital, Pondicherry </td>
+<td> Puducherry </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 800 </td>
+</tr>
+</tr>
+<td> Puducherry </td>
+<td> Sri Venkateswaraa Medical College, Hospital & Research Centre, Pondicherry </td>
+<td> Puducherry" </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 830 </td>
+</tr>
+</tr>
+<td> Puducherry </td>
+<td> Vinayaka Missions Medical College, Pondicherry </td>
+<td> Puducherry </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 730 </td>
+</tr>
+</tr>
+<td> Tamil Nadu </td>
+<td> ACS Medical College and Hospital, Chennai" </td>
+<td> Chennai </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 700 </td>
+</tr>
+</tr>
+<td> Tamil Nadu </td>
+<td> Annapoorna Medical College & Hospital, Salem </td>
+<td> Salem </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 503 </td>
+</tr>
+</tr>
+<td> Tamil Nadu </td>
+<td> Chengalpattu Medical College, Chengalpattu </td>
+<td> Chengalpattu </td>
+<td> Govt </td>
+<td> 100 </td>
+<td> 630 </td>
+</tr>
+</tr>
+<td> Tamil Nadu </td>
+<td> Chettinad Hospital & Research Institute, Kanchipuram </td>
+<td> Kanchipuram </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 1000 </td>
+</tr>
+</tr>
+<td> Tamil Nadu </td>
+<td> Christian Medical College, Vellore </td>
+<td> Vellore </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 2695 </td>
+</tr>
+</tr>
+<td> Tamil Nadu </td>
+<td> ESI- PGIMSR, ESI Hospital,K.K. Nagar, Chennai </td>
+<td> Chennai </td>
+<td> Govt </td>
+<td> 100 </td>
+<td> 330 </td>
+</tr>
+</tr>
+<td> Tamil Nadu </td>
+<td> Government Dharmapuri Medical College, Dharmapuri </td>
+<td> Dharmapuri </td>
+<td> Govt </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Tamil Nadu </td>
+<td> Government Medical College & ESIC Hospital, Coimbatore </td>
+<td> Coimbatore </td>
+<td> Govt </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Tamil Nadu" </td>
+<td> Government Medical College, Omandurar </td>
+<td> Omandurar </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Telangana </td>
+<td> Mahavir Institute of Medical Sciences, Vikarabad </td>
+<td> Vikarabad </td>
+<td> Trust </td>
+<td> 0 </td>
+<td> 0</td>
+</tr>
+</tr>
+<td> Telangana </td>
+<td> Mediciti Institute Of Medical Sciences, Ghanpur </td>
+<td> Ghanpur </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 570 </td>
+</tr>
+</tr>
+<td> Telangana </td>
+<td> MNR Medical College & Hospital, Sangareddy </td>
+<td> Sangareddy </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 570 </td>
+</tr>
+</tr>
+<td> Telangana </td>
+<td> Osmania Medical College, Hyderabad </td>
+<td> Hyderabad </td>
+<td> Govt </td>
+<td> 250 </td>
+<td> 1169 </td>
+</tr>
+</tr>
+<td> Telangana </td>
+<td> R.V.M. Institute of Medical Sciences and Research Centre, Medak </td>
+<td> Medak </td>
+<td> Trust </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Delhi </td>
+<td> Rajiv Gandhi Institute of Medical Sciences, Adilabad </td>
+<td> Adilabad </td>
+<td> Govt </td>
+<td> 100 </td>
+<td> 750 </td>
+</tr>
+</tr>
+<td> Delhi </td>
+<td> Baba Saheb Ambedkar Medical College, Rohini, Delhi </td>
+<td> Delhi </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Delhi </td>
+<td> Lady Hardinge Medical College, New Delhi </td>
+<td> New Delhi </td>
+<td> Govt. </td>
+<td> 200 </td>
+<td> 877 </td>
+</tr>
+</tr>
+<td> Delhi </td>
+<td> Vardhman Institute of Medical Sciences, Pawapuri, Nalanda </td>
+<td> New Delhi </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 1531 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> Medical College, Baroda </td>
+<td> Baroda </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 1513 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> MP Shah Medical College,Jamnagar </td>
+<td> Jamnagar </td>
+<td> Govt </td>
+<td> 200 </td>
+<td> 1263 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> Parul Institute of Medical Sciences & Research, Vadodara </td>
+<td> Vadodara </td>
+<td> Private </td>
+<td> 150 </td>
+<td> 550 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> Pramukhswami Medical College, Karmsad </td>
+<td> Karmsad </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 550 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> SBKS Medical Inst. & Research Centre, Vadodra" </td>
+<td> Vadodra </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 1120 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> Smt. N.H.L.Municipal Medical College, Ahmedabad </td>
+<td> Ahmedabad </td>
+<td> Govt </td>
+<td> 250 </td>
+<td> 1600 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> GCS Medical College, Ahmedabad </td>
+<td> Ahmedabad </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 425 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> GMERS Medical College, Dharpur Patan </td>
+<td> Dharpur Patan </td>
+<td> Govt-Society </td>
+<td> 150 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> GMERS Medical College, Gandhinagar </td>
+<td> Gandhinagar </td>
+<td> Govt-Society </td>
+<td> 150 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> GMERS Medical College, Vadodara </td>
+<td> Vadodara </td>
+<td> Govt-Society </td>
+<td> 150 </td>
+<td> 415 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> GMERS Medical College,  Himmatnagar </td>
+<td>  Himmatnagar </td>
+<td> Govt-Society </td>
+<td> 150 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> GMERS Medical College,  Junagadh </td>
+<td> Junagadh </td>
+<td> Govt-Society </td>
+<td> 150 </td>
+<td> 450 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> GMERS Medical College, Mehsana  </td>
+<td> Mehsana </td>
+<td> Govt-Society </td>
+<td> 150 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> GMERS Medical College, Ahmedabad  </td>
+<td> Ahmedabad </td>
+<td> Govt-Society </td>
+<td> 150 </td>
+<td> 415 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> Government Medical College, Surat </td>
+<td> Surat </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 1050 </td>
+</tr>
+</tr>
+<td> Gujarat </td>
+<td> Gujarat Adani Institute of Medical Sciences, Bhuj </td>
+<td> Bhuj </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 645 </td>
+</tr>
+</tr>
+<td> Kerala </td>
+<td> Government Medical College, Parippally, Kollam </td>
+<td> Kollam </td>
+<td> Govt. </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Kerala </td>
+<td> Government Medical College, Painav , Idukki  </td>
+<td> Idukki </td>
+<td> Govt. </td>
+<td> 0 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Kerala </td>
+<td> Government Medical College, Kozhikode, Calicut  </td>
+<td> Calicut </td>
+<td> Govt. </td>
+<td> 250 </td>
+<td> 3080 </td>
+</tr>
+</tr>
+<td> Kerala </td>
+<td> Government Medical College, Thrissur   </td>
+<td> Thrissur </td>
+<td> Govt. </td>
+<td> 150 </td>
+<td> 2350 </td>
+</tr>
+</tr>
+<td> Kerala  </td>
+<td> Travancore Medical College, Kollam </td>
+<td> Kollam </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 500 </td>
+</tr>
+</tr>
+<td> Madhya Pradesh </td>
+<td> Advance Institute of Medical Sciences and Research Centre, Bhopal </td>
+<td> Bhopal </td>
+<td> Society </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Madhya Pradesh </td>
+<td> Bundelkhand Medical College, Sagar </td>
+<td> Sagar </td>
+<td> Govt </td>
+<td> 100 </td>
+<td> 650 </td>
+</tr>
+</tr>
+<td> Madhya Pradesh </td>
+<td> Gandhi Medical College, Bhopal </td>
+<td> Bhopal </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 1200 </td>
+</tr>
+</tr>
+<td> Uttarakhand </td>
+<td> Sridev Suman Subharti Medical College, Dehradun </td>
+<td> Dehradun </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 350 </td>
+</tr>
+</tr>
+<td> Uttarakhand </td>
+<td> Veer Chandra Singh Garhwali Govt. Medical Sc. & Research Instt, Srinagar, Pauri Garhwal </td>
+<td> Srinagar </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 300 </td>
+</tr>
+</tr>
+<td> Uttarakhand </td>
+<td> Shri Guru Ram Rai Institute of Medical & Health Sciences, Dehradun </td>
+<td> Dehradun </td>
+<td> Society </td>
+<td> 150 </td>
+<td> 1000 </td>
+</tr>
+</tr>
+<td> Bihar </td>
+<td> Mata Gujri Memorial Medical College, Kishanganj Kishanganj Trust 100 NA </td>
+<td> Kishanganj </td>
+<td> Trust </td>
+<td> 100 </td>
+<td> 0 </td>
+</tr>
+</tr>
+<td> Uttar Pradesh </td>
+<td> Institute of Medical Sciences, BHU, Varanasi </td>
+<td> Varanasi  </td>
+<td> Govt </td>
+<td> 84 </td>
+<td> 1200 </td>
+</tr>
+</tr>
+<td> West Bengal </td>
+<td> IQ-City Medical College, Burdwan </td>
+<td> Burdwan </td>
+<td> Trust </td>
+<td> 0 </td>
+<td> 322</td>
+</tr>
+</tr>
+<td> West Bengal </td>
+<td> KPC Medical College,Jadavpur, Kolkata </td>
+<td> Kolkata </td>
+<td> Trust </td>
+<td> 150 </td>
+<td> 750 </td>
+</tr>
+</tr>
+<td> West Bengal </td>
+<td> Midnapore Medical College, Midnapore </td>
+<td> Midnapore </td>
+<td> Govt </td>
+<td> 150 </td>
+<td> 740 </td>
+
+
+
+
+
+</table>
+</body>
+</html>

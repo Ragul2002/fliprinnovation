@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Registration form</title>
+ <style>
+ body {
+ background-image: url("https://i.pinimg.com/736x/f9/02/fb/f902fb0565af59a89a59e3db85391a91.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: arial bold;
+ font-style: bold;
+ font-size:25px;
+ }
+ </style>
+</head>
+<link rel="stylesheet" href="materialize/js/materialize.min.js">
+<link rel="stylesheet" href="materialize/css/materialize.css">
+<link rel="stylesheet" href="materialize/css/materialize.min.css">
+<body>
+ <div class="container">
+ <div class="container">
+ <form style="padding:0px; box-shadow: black;backgroundcolor: transparent;"
+ action="php.php" method="POST">
+ <div class="card-panel 18ffff cyan accent-2"
+ style="text-align: center; font-size: 50px; font-weight: 500; font-style: bold;">
+ REGISTRATION FORM
+ </div>
+ <div class="row">
+ <div class="input-field col s6">
+ ID
+ <input placeholder="Enter your ID" name="ID" type="text" class="validate" required="required">
+ </div>
+ <div class="input-field col s6">
+ User Name
+ <input placeholder="Enter your user name" name="username" type="text" class="validate" required="required">
+ </div>
+ </div>
+ <div class="row">
+ <div class="input-field col s6">
+ Reported on
+ <input placeholder="Enter the date" type="text" class="validate" required="required">
+ </div>
+ <div class="input-field col s6">
+ Age
+ <input placeholder="age" type="text" name="age" class="validate" required="required">
+ </div>
+ <p>
+ <label style="font-weight: 400;color: black;fontsize: large;float:left">
+ Gender
+ </label>
+ <p style="align-items: center;">
+ <label style="font-weight: 400;color: black;fontsize: large; padding-left: 2%;">
+ <input name="gender" type="radio" value="m" />
+ <span> Male </span>
+ </label>
+ <label style="font-weight: 400;color: black;fontsize: large; padding-left: 2%;">
+ <input name="gender" type="radio" value="f" />
+ <span> Female </span>
+ </label>
+ <label style="font-weight: 400;color: black;fontsize: large; padding-left: 2%;">
+ <input name="gender" type="radio" value="t" />
+ <span> Transgender </span>
+ </label>
+ </p>
+ </p>
+ <div class="input-field col s12">
+State
+ <input placeholder="Enter the state" type="text" name="state" class="validate"required="required">
+ </div>
+ <div class="input-field col s12">
+ Status
+ </label>
+ <p style="align-items: center;">
+ <label style="font-weight: 400;color: black;fontsize: large; padding-left: 2%;">
+ <input name="Status" type="radio" value="Yes" />
+ <span> Yes </span>
+ </label>
+ <label style="font-weight: 400;color: black;fontsize: large; padding-left: 2%;">
+ <input name="Status" type="radio" value="No" />
+ <span> No </span>
+ </label>
+ </p>
+ </p>
+ </div>
+ <span class="tab4"></span><a href="submit.html "><button class="button"><span>Submit </span></button></a><br>
+
+ </div>
+ </form>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</body>
+</html>

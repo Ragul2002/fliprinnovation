@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+.button {
+  border-radius: 2px;
+  background-color: #04235c;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  width: 175px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 30%;
+   
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+  float: left;
+}
+.fa-twitter {
+  background: black;
+  color: white;
+  float: left;
+}
+.fa-instagram {
+  background: black;
+  color: white;
+  float: left;
+}
+.fa-linkedin {
+  background: black;
+  color: white;
+  float:left;
+}
+        .head1 {
+            font-size:20px;
+            color:black;
+            font-weight:bold;
+            font-family:comic sans MS;
+        }
+       
+        body {
+            margin: 0 auto;
+            background-position:cover;
+            background-size: cover ;
+            background-image: url("https://www.thehindu.com/news/cities/mumbai/92d60p/article31335020.ece/ALTERNATES/LANDSCAPE_1200/Lockdown-Breckdown");
+            background-repeat:no-repeat;
+        }
+.tab1 {
+            display: inline-block;
+            margin-left: 700px;
+        }
+.tab2 {
+            display: inline-block;
+            margin-left: 900px;
+        }
+.tab3{
+           display: inline-block;
+           margin-left:50px;
+}
+.tab4{
+           display: inline-block;
+           margin-left:100px;
+}
+.tab5{
+           display: inline-block;
+           margin-left:150px;
+}
+.tab6{
+           display: inline-block;
+           margin-left:200px;
+}
+h2{
+font-size:60px;
+font-family:cursive;
+color:white;
+text-align:left;
+}
+h3{
+font-size:35px;
+font-family:comic sans ms;
+color:white;
+}
+       
+        footer {
+            width: 15%;
+            bottom: 0px;
+            background-color: white;
+            color: #fff;
+            position: absolute;
+            padding-top:10px;
+            padding-bottom:10px;
+            text-align:left;
+            font-size:30px;
+            font-weight:bold;
+            margin-left:1300px;
+           
+        }
+        .body_sec {
+            margin-left:20px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <!-- Body section -->
+    <div class = "body_sec">
+        <section id="Content">
+
+<h2><br><span class="tab1"></span><strong>FLIPR INNOVATION LABS</strong></h2>
+<h3><span class="tab2"></span>Spread facts not fears...!</h3>
+<a href="hospital.html"><button class="button"><span>Hospitals </span></button></a><br>
+<span class="tab3"></span><a href="hospitalbed.html "><button class="button"><span>Hospital Beds </span></button></a><br>
+<span class="tab4"></span><a href="helpline.html "><button class="button"><span>Help-line </span></button></a><br>
+<span class="tab5"></span><a href="notification.html "><button class="button"><span>Notifications </span></button></a><br>
+<span class="tab6"></span><a href="graph.html "><button class="button"><span>Graph </span></button></a>
+        </section>
+
+    </div>
+     
+    <!-- Footer Section -->
+    <footer>
+ <div class="head1">Follow us on</div>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-linkedin"></a> </footer>
+</body>
+</html>   

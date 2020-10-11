@@ -1,0 +1,50 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'Chart');
+      data.addColumn('number', 'Deceased');
+      data.addColumn('number', 'By date');
+      data.addColumn('number', 'By month');
+
+      data.addRows([
+        [1,  55, 1, 1],
+        [2,  45, 2, 1],
+        [3,  22,  3, 1],
+        [4,  60, 4, 1],
+        [5,  39, 5, 1],
+       
+      ]);
+
+      var options = {
+        chart: {
+          title: 'CORONA IN INDIA',
+                  },
+        width: 900,
+        height: 500,
+        axes: {
+          x: {
+            0: {side: 'top'}
+          }
+        }
+      };
+
+      var chart = new google.charts.Line(document.getElementById('line_top_x'));
+
+      chart.draw(data, google.charts.Line.convertOptions(options));
+    }
+  </script>
+</head>
+<body>
+  <div id="line_top_x"></div>
+<a href="mailto:mail@example.com?cc=someone@example.com, another@example.com&bcc=person@example.com&subject=mail%20subject&body=Body-goes-here"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/547/335/small/mail-06.jpg" ></a>
+<a href="&body" download>
+<img src="https://icons.iconarchive.com/icons/saki/nuoveXT/128/Small-arrow-down-fast-icon.png" ></a>
+</body>
+</html>
